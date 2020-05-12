@@ -36,6 +36,7 @@ import { AppCommonModule } from '../common/common.module';
 import { DirectivesModule } from '../../directives/directives.module';
 import { AppLayoutModule } from '../layout/layout.module';
 import { ContextMenuModule } from '../context-menu/context-menu.module';
+import { SearchHighlightModule } from 'search-highlight';
 
 @NgModule({
   imports: [
@@ -47,7 +48,8 @@ import { ContextMenuModule } from '../context-menu/context-menu.module';
     AppToolbarModule,
     DirectivesModule,
     AppLayoutModule,
-    ContextMenuModule
+    ContextMenuModule,
+    SearchHighlightModule
   ],
   declarations: [
     SearchResultsComponent,

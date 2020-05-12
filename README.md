@@ -1,17 +1,11 @@
-<p align="left"> <img title="Alfresco" src="alfresco.png" alt="Alfresco - Simply a better way to create amazing digital experiences"></p>
+<p align="left"><img title="Alfresco" src="alfresco.png" alt="Alfresco - Simply a better way to create amazing digital experiences"></p>
 
 # Alfresco Hackathon 2020
 
+
+## Introduction
+
 Alfresco Hackathon 2020 Shared Repository - Improving Alfresco Content Application Search Experience
-
-## Product related Skills
-
-### All participants will need to have skills in one involved technology at least :
-
-- Angular.
-- Alfresco Development Framework and/or Alfresco Content Application
-- Solr.
-- PDF.js
 
 ### High level tasks
 
@@ -20,18 +14,6 @@ Alfresco Hackathon 2020 Shared Repository - Improving Alfresco Content Applicati
 - Extension and Development for PDF.js viewer.
 - ACA Lib integration.
 - Test, packaging and distribution.
-
-
-## Introduction
-
-The Alfresco Content Application a content management application built using
-[Alfresco Application Development Framework (ADF)](https://github.com/Alfresco/alfresco-ng2-components) components
-and was generated with [Angular CLI](https://github.com/angular/angular-cli).
-
-### Who is this application for
-
-The Content Application is a streamlined experience for end users on top of Alfresco Content Services, focused on file management within the Alfresco content repository. It provides developers with an easily extendable environment for lightning fast custom application development by providing safe ways to inject custom controls, viewer components, pages and plug-ins without upgrade concerns.
-
 
 ### Want to help
 

@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of search-highlight
+ */
+export { SearchHighlightService } from './lib/search-highlight.service';
+export { SearchHighlightComponent } from './lib/components/search-highlight/search-highlight.component';
+export { SearchHighlightModule } from './lib/search-highlight.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3NlYXJjaC1oaWdobGlnaHQvIiwic291cmNlcyI6WyJwdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSx1Q0FBYyxnQ0FBZ0MsQ0FBQztBQUMvQyx5Q0FBYyw4REFBOEQsQ0FBQztBQUM3RSxzQ0FBYywrQkFBK0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc2VhcmNoLWhpZ2hsaWdodFxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NlYXJjaC1oaWdobGlnaHQuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzL3NlYXJjaC1oaWdobGlnaHQvc2VhcmNoLWhpZ2hsaWdodC5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VhcmNoLWhpZ2hsaWdodC5tb2R1bGUnO1xuIl19

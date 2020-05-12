@@ -97,6 +97,7 @@ import localeFi from '@angular/common/locales/fi';
 import localeDa from '@angular/common/locales/da';
 import localeSv from '@angular/common/locales/sv';
 
+
 registerLocaleData(localeFr);
 registerLocaleData(localeDe);
 registerLocaleData(localeIt);

@@ -27,7 +27,8 @@ import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import {
   Pagination,
   MinimalNodeEntity,
-  ResultSetPaging
+  ResultSetPaging,
+  RequestHighlight
 } from '@alfresco/js-api';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
@@ -83,6 +84,33 @@ export class SearchResultsComponent extends PageComponent implements OnInit {
       skipCount: 0,
       maxItems: 25
     };
+
+    const requestHighlight = new RequestHighlight();
+    requestHighlight.prefix = '<mark>';
+    requestHighlight.postfix = '</mark>';
+    requestHighlight.mergeContiguous = true;
+    requestHighlight.usePhraseHighlighter = true;
+    requestHighlight.fragmentSize = 100;
+    /**
+     * The number of characters to be considered for highlighting. Matches after this count will not be shown.
+     */
+    requestHighlight.maxAnalyzedChars = 350;
+    requestHighlight.fields = [
+      {
+        field: 'cm:name'
+      },
+      {
+        field: 'cm:title'
+      },
+      {
+        field: 'cm:description'
+      },
+      {
+        field: 'cm:content'
+      }
+    ];
+
+    queryBuilder.config.highlight = requestHighlight;
 
     this.showFacetFilter$ = store.select(showFacetFilter);
   }

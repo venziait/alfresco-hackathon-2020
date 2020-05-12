@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@alfresco/adf-core/app.config.schema.json",
-  "ecmHost": "{protocol}//{hostname}{:port}",
-  "aosHost": "{protocol}//{hostname}{:port}/alfresco/aos",
-  "baseShareUrl": "{protocol}//{hostname}{:port}/#/preview/s",
+  "ecmHost": "https://aquadesk.venzia.es/",
+  "aosHost": "https://aquadesk.venzia.es/alfresco/aos",
+  "baseShareUrl": "https://aquadesk.venzia.es/#/preview/s",
   "providers": "ECM",
   "authType": "BASIC",
   "oauth2": {

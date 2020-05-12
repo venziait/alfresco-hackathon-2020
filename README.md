@@ -2,6 +2,9 @@
 
 # Alfresco Hackathon 2020
 
+Alfresco Hackathon 2020 Shared Repository - Improving Alfresco Content Application Search Experience adding Highlighted search terms in search results and preview (for PDF-A format at least).
+
+## Product related Skills
 
 ## Introduction
 
